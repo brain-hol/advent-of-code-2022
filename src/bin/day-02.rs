@@ -35,7 +35,7 @@ const POINTS_2: [[usize; 3]; 3] = [
 
 fn main() -> Result<()> {
     let start = Instant::now();
-    let input = include_str!("input-2-1.txt");
+    let input = include_str!("input-2.prod");
     let mut score = 0;
     let mut score_2 = 0;
     for line in input.lines() {

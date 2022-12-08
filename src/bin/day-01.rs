@@ -2,7 +2,7 @@ use std::time::Instant;
 
 fn main() {
     let start = Instant::now();
-    let mut lines: Vec<u32> = include_str!("./input-1-1.txt")
+    let mut lines: Vec<u32> = include_str!("./input-1.prod")
         .split("\n\n")
         .map(|x| x.lines().flat_map(|num| num.parse::<u32>()).sum())
         .collect();

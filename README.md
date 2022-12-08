@@ -2,6 +2,7 @@
 
 ## Cherry Picked Best Times
 
+```
 ./day-01
 Part 1: 65912
 Part 2: 195625
@@ -21,3 +22,9 @@ Duration: 32.541µs
 Part 1: 573
 Part 2: 867
 Duration: 299.75µs
+
+./day-05
+Part 1: JCMHLVGMG
+Part 2: LVMRWSSPZ
+Duration: 220.625µs
+```
